@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-doces.jpg";
-import { ExternalLink, Heart } from "lucide-react";
+import { ExternalLink, Heart, Instagram } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -45,6 +45,16 @@ const Hero = () => {
               >
                 Encomendas especiais
               </Button>
+
+              <Button 
+                variant="soft" 
+                size="lg" 
+                className="text-lg px-8 py-6"
+                onClick={() => window.open('https://instagram.com/mfconfeitarias', '_blank')}
+              >
+                <Instagram className="w-5 h-5" />
+                Instagram
+              </Button>
             </div>
           </div>
           
@@ -55,6 +65,15 @@ const Hero = () => {
                 src={heroImage} 
                 alt="Doces deliciosos da MF Confeitarias" 
                 className="w-full h-[400px] lg:h-[500px] object-cover"
+              />
+            </div>
+            
+            {/* Logo da empresa */}
+            <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
+              <img 
+                src="/lovable-uploads/98fc8bc4-2ecd-4af6-8bce-dd78320675cc.png" 
+                alt="Logo MF Confeitaria" 
+                className="w-16 h-16 object-contain"
               />
             </div>
             
