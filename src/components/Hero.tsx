@@ -31,7 +31,7 @@ const Hero = () => {
                 variant="hero" 
                 size="lg" 
                 className="text-lg px-8 py-6"
-                onClick={() => window.open('https://ifood.com.br', '_blank')}
+                onClick={() => window.open('https://www.ifood.com.br/delivery/rio-de-janeiro-rj/mf-confeitaria-catete/d843ef56-ee31-4f2c-98a4-42219324e15d', '_blank')}
               >
                 <ExternalLink className="w-5 h-5" />
                 Peça agora pelo iFood!

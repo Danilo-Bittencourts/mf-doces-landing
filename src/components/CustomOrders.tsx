@@ -66,7 +66,7 @@ const galleryImages = [
 const CustomOrders = () => {
   const handleWhatsAppContact = () => {
     const message = "Olá! Gostaria de fazer uma encomenda especial pela MF Confeitarias.";
-    const phone = "5511999999999"; // Substitua pelo número real
+    const phone = "5521968221691";
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
   };
 

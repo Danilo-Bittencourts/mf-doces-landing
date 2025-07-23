@@ -86,7 +86,7 @@ const Products = () => {
           <Button 
             variant="hero" 
             size="lg"
-            onClick={() => window.open('https://ifood.com.br', '_blank')}
+            onClick={() => window.open('https://www.ifood.com.br/delivery/rio-de-janeiro-rj/mf-confeitaria-catete/d843ef56-ee31-4f2c-98a4-42219324e15d', '_blank')}
           >
             Ver cardápio completo no iFood
           </Button>
